@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html * {
+    font-family: "Poppins", sans-serif;   
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+}
+
+.container {
+    background-image: url(Background.png);
+    background-size: cover;
+    /* height: 102vh; */
+    max-height: 100%;
+}
+
+.container p{
+    font-size: 1rem;
+}
+
+
+.navbar {
+    padding: 3% 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #383838;
+}
+
+.navbar * {
+    color: #383838;
+    
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.nav-item {
+    vertical-align: middle;
+    font-size: 1rem;   
+    margin-left: 1.4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.nav-item button, button {
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.portada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #383838;
+}
+
+button .getS{
+    color: #8b8b8b;
+}
+
+li {
+    list-style: none;
+}
+
+.title, .title2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+.title2{
+    font-size: 2rem;
+    text-align: left;
+}
+.subtitle{
+    text-align: center;
+    max-width: 35%;
+}
+.footerP{
+    margin-bottom: 4em;
+}
+
+#snippetIMG{
+    position: relative;
+    z-index: 1;
+    max-width: 76%;
+    
+}
+
+.bottom {
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4% 12%;
+}
+.bottom .col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bottom .col:first-child{
+    padding-right: 50px;
+    align-items: flex-start;
+
+}
+.bottom .col:last-child{
+    align-items: flex-end;
+}
+.bottom .col p{
+    text-align: left;
+}
+
+#customIMG{
+    max-width: 85%;
+}
+.footer *{
+    font-weight: 600;    
+    font-size: 0.86rem;
+}
